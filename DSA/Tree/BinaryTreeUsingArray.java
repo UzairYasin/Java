@@ -55,7 +55,7 @@ public class BinaryTreeUsingArray {
 
     public static void main(String[] args) {
 
-        int nodes[] = { 9, 2, 3, 4, 5 };
+        int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
         
         BinaryTreeUsingArray tree = new BinaryTreeUsingArray();
         Node root = tree.buildTree(nodes);
